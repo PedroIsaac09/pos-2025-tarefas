@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>Matemática</disciplina>
+    <professor>
+        <nome>João Silva</nome>
+        <matrícula>12345</matrícula>
+    </professor>
+    <turma>1º Ano - A</turma>
+    <data>2025-05-22</data>
+    <questões>
+        <questão>
+            <enunciado>Qual é a raiz quadrada de 64?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="nao">7</alternativa>
+                <alternativa correta="sim">8</alternativa>
+                <alternativa correta="nao">9</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Quem foi o primeiro presidente do Brasil?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Deodoro da Fonseca</alternativa>
+                <alternativa correta="nao">Getúlio Vargas</alternativa>
+                <alternativa correta="nao">Juscelino Kubitschek</alternativa>
+                <alternativa correta="nao">Dom Pedro II</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Em que ano o Brasil ganhou sua primeira Copa do Mundo?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">1954</alternativa>
+                <alternativa correta="sim">1958</alternativa>
+                <alternativa correta="nao">1962</alternativa>
+                <alternativa correta="nao">1970</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é a fórmula química da água?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">H2O</alternativa>
+                <alternativa correta="nao">CO2</alternativa>
+                <alternativa correta="nao">O2</alternativa>
+                <alternativa correta="nao">H2</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é o maior planeta do Sistema Solar?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Terra</alternativa>
+                <alternativa correta="sim">Júpiter</alternativa>
+                <alternativa correta="nao">Marte</alternativa>
+                <alternativa correta="nao">Vênus</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
