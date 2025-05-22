@@ -1,42 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
 <cardapio>
     <Prato id="L01">
         <nomedoprato>Carne ao molho</nomedoprato>
-        <descricao>Carne com molho françes</descricao>
-        <Ingrediente>Carne assada com molho comprado no mercado</Ingrediente>
-        <Preco>220R$</Preco>
+        <descricao>Carne com molho francês</descricao>
+        <Ingredientes>
+            <Ingrediente>Carne assada</Ingrediente>
+            <Ingrediente>Molho comprado no mercado</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 220R$</Preco>
         <Calorias>25000 kcal</Calorias>
         <Tempo_de_preparo>2h de preparo</Tempo_de_preparo>
     </Prato>
     <Prato id="L02">
         <nomedoprato>Frango frito</nomedoprato>
         <descricao>Frango frito gostoso para almoço</descricao>
-        <Ingrediente>Frango</Ingrediente>
-        <Preco>60R$</Preco>
+        <Ingredientes>
+            <Ingrediente>Frango</Ingrediente>
+            <Ingrediente>Óleo para fritar</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 60R$</Preco>
         <Calorias>200 kcal</Calorias>
         <Tempo_de_preparo>1h de preparo</Tempo_de_preparo>
     </Prato>
     <Prato id="L03">
         <nomedoprato>Feijão e arroz</nomedoprato>
-        <descricao>Fijão com arroz</descricao>
-        <Ingrediente>Feijão e arroz</Ingrediente>
-        <Preco>25R$</Preco>
+        <descricao>Feijão com arroz</descricao>
+        <Ingredientes>
+            <Ingrediente>Feijão</Ingrediente>
+            <Ingrediente>Arroz</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 25R$</Preco>
         <Calorias>1500 kcal</Calorias>
         <Tempo_de_preparo>2h de preparo</Tempo_de_preparo>
     </Prato>
     <Prato id="L04">
-        <nomedoprato>Peixe </nomedoprato>
-        <descricao>peixe assado</descricao>
-        <Ingrediente>peixe</Ingrediente>
-        <Preco>20R$</Preco>
+        <nomedoprato>Peixe</nomedoprato>
+        <descricao>Peixe assado</descricao>
+        <Ingredientes>
+            <Ingrediente>Peixe</Ingrediente>
+            <Ingrediente>Ervas finas</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 20R$</Preco>
         <Calorias>230 kcal</Calorias>
         <Tempo_de_preparo>30 minutos de preparo</Tempo_de_preparo>
     </Prato>
     <Prato id="L05">
         <nomedoprato>Frango na grelha</nomedoprato>
-        <descricao>frango na grelha</descricao>
-        <Ingrediente>frango</Ingrediente>
-        <Preco>25R$</Preco>
+        <descricao>Frango na grelha</descricao>
+        <Ingredientes>
+            <Ingrediente>Frango</Ingrediente>
+            <Ingrediente>Temperos</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 25R$</Preco>
         <Calorias>450 kcal</Calorias>
         <Tempo_de_preparo>1h de preparo</Tempo_de_preparo>
     </Prato>
