@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+    <!ELEMENT imobiliaria (imovel+)>
+    <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT proprietario (nome, (email | telefone)+)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+    <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+    <!ELEMENT rua (#PCDATA)>
+    <!ELEMENT bairro (#PCDATA)>
+    <!ELEMENT cidade (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+    <!ELEMENT tamanho (#PCDATA)>
+    <!ELEMENT numQuartos (#PCDATA)>
+    <!ELEMENT numBanheiros (#PCDATA)>
+    <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento no centro com ótima vista</descricao>
+        <proprietario>
+            <nome>João da Silva</nome>
+            <telefone>11999999999</telefone>
+            <telefone>11988888888</telefone>
+            <email>joao@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua Central</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 550.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa com quintal amplo</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <telefone>21912345678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Jardim das Rosas</bairro>
+            <cidade>Rio de Janeiro</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 750.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Studio mobiliado</descricao>
+        <proprietario>
+            <nome>Carlos Mendes</nome>
+            <email>carlos.mendes@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Comércio</rua>
+            <bairro>Centro</bairro>
+            <cidade>Belo Horizonte</cidade>
+            <numero>45</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>40m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 320.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Chácara para lazer</descricao>
+        <proprietario>
+            <nome>Luciana Prado</nome>
+            <telefone>34998765432</telefone>
+            <email>luciana.prado@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Estrada da Serra</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Uberlândia</cidade>
+            <numero>SN</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>500m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1.200.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet econômica</descricao>
+        <proprietario>
+            <nome>Fernanda Costa</nome>
+            <telefone>11933334444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>Vila Nova</bairro>
+            <cidade>Curitiba</cidade>
+            <numero>76</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>30m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 180.000</valor>
+    </imovel>
+</imobiliaria>
