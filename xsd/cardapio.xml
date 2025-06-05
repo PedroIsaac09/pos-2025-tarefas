@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio xmlns="http://cardapio.org" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        schemaLocation="http://cardapio.org cardapio.xsd">
+    <prato id="1">
+        <nome>Carne ao molho</nome>
+        <descricao>Carne com molho francês</descricao>
+        <ingredientes>
+            <ingrediente>Carne assada</ingrediente>
+            <ingrediente>Molho comprado no mercado</ingrediente>
+        </ingredientes>
+        <preco>220.00</preco>
+        <calorias>25000</calorias>
+        <tempoPreparo>2h de preparo</tempoPreparo>
+    </prato>
+
+    <prato id="2">
+        <nome>Frango frito</nome>
+        <descricao>Frango frito gostoso para almoço</descricao>
+        <ingredientes>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Óleo para fritar</ingrediente>
+        </ingredientes>
+        <preco>60.00</preco>
+        <calorias>200</calorias>
+        <tempoPreparo>1h de preparo</tempoPreparo>
+    </prato>
+
+    <prato id="3">
+        <nome>Feijão e arroz</nome>
+        <descricao>Feijão com arroz</descricao>
+        <ingredientes>
+            <ingrediente>Feijão</ingrediente>
+            <ingrediente>Arroz</ingrediente>
+        </ingredientes>
+        <preco>25.00</preco>
+        <calorias>1500</calorias>
+        <tempoPreparo>2h de preparo</tempoPreparo>
+    </prato>
+
+    <prato id="4">
+        <nome>Peixe</nome>
+        <descricao>Peixe assado</descricao>
+        <ingredientes>
+            <ingrediente>Peixe</ingrediente>
+            <ingrediente>Ervas finas</ingrediente>
+        </ingredientes>
+        <preco>20.00</preco>
+        <calorias>230</calorias>
+        <tempoPreparo>30 minutos de preparo</tempoPreparo>
+    </prato>
+
+    <prato id="5">
+        <nome>Frango na grelha</nome>
+        <descricao>Frango na grelha</descricao>
+        <ingredientes>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Temperos</ingrediente>
+        </ingredientes>
+        <preco>25.00</preco>
+        <calorias>450</calorias>
+        <tempoPreparo>1h de preparo</tempoPreparo>
+    </prato>
+
+</cardapio>
