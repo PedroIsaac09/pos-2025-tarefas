@@ -4,7 +4,7 @@
     targetNamespace="http://cardapio.org"
     elementFormDefault="unqualified">
 
-        <element name="prato">
+        <element name="cardapio">
           <complexType>
             <sequence>
               <element name="nome" type="string"/>
