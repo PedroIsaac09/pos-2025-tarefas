@@ -1,0 +1,124 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Matemática",
+      "professor": {
+        "nome": "João Silva",
+        "matricula": "12345"
+      },
+      "turma": "1º Ano - A",
+      "data": "2025-05-22",
+      "questoes": [
+        {
+          "enunciado": "Qual é a raiz quadrada de 64?",
+          "pontuacao": 1,
+          "alternativas": [
+            {
+              "correta": "nao",
+              "texto": "6"
+            },
+            {
+              "correta": "nao",
+              "texto": "7"
+            },
+            {
+              "correta": "sim",
+              "texto": "8"
+            },
+            {
+              "correta": "nao",
+              "texto": "9"
+            }
+          ]
+        },
+        {
+          "enunciado": "Quem foi o primeiro presidente do Brasil?",
+          "pontuacao": 1,
+          "alternativas": [
+            {
+              "correta": "sim",
+              "texto": "Deodoro da Fonseca"
+            },
+            {
+              "correta": "nao",
+              "texto": "Getúlio Vargas"
+            },
+            {
+              "correta": "nao",
+              "texto": "Juscelino Kubitschek"
+            },
+            {
+              "correta": "nao",
+              "texto": "Dom Pedro II"
+            }
+          ]
+        },
+        {
+          "enunciado": "Em que ano o Brasil ganhou sua primeira Copa do Mundo?",
+          "pontuacao": 1,
+          "alternativas": [
+            {
+              "correta": "nao",
+              "texto": "1954"
+            },
+            {
+              "correta": "sim",
+              "texto": "1958"
+            },
+            {
+              "correta": "nao",
+              "texto": "1962"
+            },
+            {
+              "correta": "nao",
+              "texto": "1970"
+            }
+          ]
+        },
+        {
+          "enunciado": "Qual é a fórmula química da água?",
+          "pontuacao": 1,
+          "alternativas": [
+            {
+              "correta": "sim",
+              "texto": "H2O"
+            },
+            {
+              "correta": "nao",
+              "texto": "CO2"
+            },
+            {
+              "correta": "nao",
+              "texto": "O2"
+            },
+            {
+              "correta": "nao",
+              "texto": "H2"
+            }
+          ]
+        },
+        {
+          "enunciado": "Qual é o maior planeta do Sistema Solar?",
+          "pontuacao": 1,
+          "alternativas": [
+            {
+              "correta": "nao",
+              "texto": "Terra"
+            },
+            {
+              "correta": "sim",
+              "texto": "Júpiter"
+            },
+            {
+              "correta": "nao",
+              "texto": "Marte"
+            },
+            {
+              "correta": "nao",
+              "texto": "Vênus"
+            }
+          ]
+        }
+      ]
+    }
+  }

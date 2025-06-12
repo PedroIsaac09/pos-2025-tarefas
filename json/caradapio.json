@@ -1,0 +1,42 @@
+{
+    "cardapio": {
+      "pratos": [
+        {
+          "id": 1,
+          "nome": "Carne ao molho",
+          "descricao": "Carne com molho francês",
+          "ingredientes": [
+            "Carne assada",
+            "Molho comprado no mercado"
+          ],
+          "preco": 220.00,
+          "calorias": 25000,
+          "tempoPreparo": "2h de preparo"
+        },
+        {
+          "id": 2,
+          "nome": "Frango frito",
+          "descricao": "Frango frito gostoso para almoço",
+          "ingredientes": [
+            "Frango",
+            "Óleo para fritar"
+          ],
+          "preco": 60.00,
+          "calorias": 200,
+          "tempoPreparo": "1h de preparo"
+        },
+        {
+          "id": 3,
+          "nome": "Feijão e arroz",
+          "descricao": "Feijão com arroz",
+          "ingredientes": [
+            "Feijão",
+            "Arroz"
+          ],
+          "preco": null,
+          "calorias": null,
+          "tempoPreparo": null
+        }
+      ]
+    }
+  }
