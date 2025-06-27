@@ -1,102 +1,111 @@
-{
-    "imobiliaria": {
-      "imoveis": [
-        {
-          "descricao": "Apartamento no centro com ótima vista",
-          "proprietario": {
+[
+    {
+        "descricao": "Apartamento no centro com ótima vista",
+        "proprietario": {
             "nome": "João da Silva",
-            "telefones": ["11999999999", "11988888888"],
+            "telefones": [
+                "11999999999",
+                "11988888888"
+            ],
             "email": "joao@email.com"
-          },
-          "endereco": {
+        },
+        "endereco": {
             "rua": "Rua Central",
             "bairro": "Centro",
             "cidade": "São Paulo",
-            "numero": 123
-          },
-          "caracteristicas": {
-            "tamanho": "80m²",
-            "numQuartos": 2,
-            "numBanheiros": 1
-          },
-          "valor": "R$ 550.000"
+            "numero": "123"
         },
-        {
-          "descricao": "Casa com quintal amplo",
-          "proprietario": {
+        "caracteristicas": {
+            "tamanho": "80m²",
+            "numQuartos": "2",
+            "numBanheiros": "1"
+        },
+        "valor": "R$ 550.000"
+    },
+    {
+        "descricao": "Casa com quintal amplo",
+        "proprietario": {
             "nome": "Maria Oliveira",
-            "telefones": ["21912345678"]
-          },
-          "endereco": {
+            "telefones": [
+                "21912345678"
+            ],
+            "email": null
+        },
+        "endereco": {
             "rua": "Rua das Flores",
             "bairro": "Jardim das Rosas",
-            "cidade": "Rio de Janeiro"
-          },
-          "caracteristicas": {
-            "tamanho": "120m²",
-            "numQuartos": 3,
-            "numBanheiros": 2
-          },
-          "valor": "R$ 750.000"
+            "cidade": "Rio de Janeiro",
+            "numero": null
         },
-        {
-          "descricao": "Studio mobiliado",
-          "proprietario": {
+        "caracteristicas": {
+            "tamanho": "120m²",
+            "numQuartos": "3",
+            "numBanheiros": "2"
+        },
+        "valor": "R$ 750.000"
+    },
+    {
+        "descricao": "Studio mobiliado",
+        "proprietario": {
             "nome": "Carlos Mendes",
+            "telefones": [],
             "email": "carlos.mendes@email.com"
-          },
-          "endereco": {
+        },
+        "endereco": {
             "rua": "Rua do Comércio",
             "bairro": "Centro",
             "cidade": "Belo Horizonte",
-            "numero": 45
-          },
-          "caracteristicas": {
-            "tamanho": "40m²",
-            "numQuartos": 1,
-            "numBanheiros": 1
-          },
-          "valor": "R$ 320.000"
+            "numero": "45"
         },
-        {
-          "descricao": "Chácara para lazer",
-          "proprietario": {
+        "caracteristicas": {
+            "tamanho": "40m²",
+            "numQuartos": "1",
+            "numBanheiros": "1"
+        },
+        "valor": "R$ 320.000"
+    },
+    {
+        "descricao": "Chácara para lazer",
+        "proprietario": {
             "nome": "Luciana Prado",
-            "telefones": ["34998765432"],
+            "telefones": [
+                "34998765432"
+            ],
             "email": "luciana.prado@email.com"
-          },
-          "endereco": {
+        },
+        "endereco": {
             "rua": "Estrada da Serra",
             "bairro": "Zona Rural",
             "cidade": "Uberlândia",
             "numero": "SN"
-          },
-          "caracteristicas": {
-            "tamanho": "500m²",
-            "numQuartos": 4,
-            "numBanheiros": 3
-          },
-          "valor": "R$ 1.200.000"
         },
-        {
-          "descricao": "Kitnet econômica",
-          "proprietario": {
+        "caracteristicas": {
+            "tamanho": "500m²",
+            "numQuartos": "4",
+            "numBanheiros": "3"
+        },
+        "valor": "R$ 1.200.000"
+    },
+    {
+        "descricao": "Kitnet econômica",
+        "proprietario": {
             "nome": "Fernanda Costa",
-            "telefones": ["11933334444"]
-          },
-          "endereco": {
+            "telefones": [
+                "11933334444"
+            ],
+            "email": null
+        },
+        "endereco": {
             "rua": "Rua das Palmeiras",
             "bairro": "Vila Nova",
             "cidade": "Curitiba",
-            "numero": 76
-          },
-          "caracteristicas": {
+            "numero": "76"
+        },
+        "caracteristicas": {
             "tamanho": "30m²",
-            "numQuartos": 1,
-            "numBanheiros": 1
-          },
-          "valor": "R$ 180.000"
-        }
-      ]
+            "numQuartos": "1",
+            "numBanheiros": "1"
+        },
+        "valor": "R$ 180.000"
     }
-  }
+]
