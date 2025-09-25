@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex API</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff0000, #ffcb05);
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: linear-gradient(90deg, #ef5350, #fbc02d);
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* Splash */
+    #splash {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: #ff0000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      flex-direction: column;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+    }
+    #splash img {
+      width: 140px;
+      animation: spin 2s linear infinite;
+      cursor: pointer;
+    }
+    #splash p {
+      margin-top: 15px;
+      font-size: 1.2rem;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Cards */
+    .card {
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .pokemon-img {
+      width: 140px;
+      transition: transform 0.3s;
+    }
+    .pokemon-img:hover {
+      transform: scale(1.15);
+    }
+
+    .list-group-item {
+      cursor: pointer;
+      transition: 0.3s;
+      border-radius: 10px;
+      margin-bottom: 5px;
+    }
+    .list-group-item:hover {
+      background-color: #fdd835;
+      color: #000;
+    }
+
+    .ability-badge, .type-badge {
+      margin: 3px;
+      font-size: 0.9rem;
+      padding: 6px 10px;
+      border-radius: 12px;
+    }
+
+    /* Tipos com cores */
+    .type-fire { background-color: #f08030; color: white; }
+    .type-water { background-color: #6890f0; color: white; }
+    .type-grass { background-color: #78c850; color: white; }
+    .type-electric { background-color: #f8d030; color: black; }
+    .type-psychic { background-color: #f85888; color: white; }
+    .type-ice { background-color: #98d8d8; color: black; }
+    .type-dragon { background-color: #7038f8; color: white; }
+    .type-dark { background-color: #705848; color: white; }
+    .type-fairy { background-color: #ee99ac; color: black; }
+    .type-normal { background-color: #a8a878; color: black; }
+    .type-fighting { background-color: #c03028; color: white; }
+    .type-poison { background-color: #a040a0; color: white; }
+    .type-ground { background-color: #e0c068; color: black; }
+    .type-flying { background-color: #a890f0; color: black; }
+    .type-bug { background-color: #a8b820; color: black; }
+    .type-rock { background-color: #b8a038; color: black; }
+    .type-ghost { background-color: #705898; color: white; }
+    .type-steel { background-color: #b8b8d0; color: black; }
+  </style>
+</head>
+<body>
+
+  <!-- Splash animado -->
+  <div id="splash">
+    <img id="pokeball" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Pokebola">
+    <p>Clique na Pokébola para abrir a Pokédex</p>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="#">⚡ Pokédex API</a>
+      <!-- Pesquisa -->
+      <form id="searchForm" class="d-flex" role="search">
+        <input id="searchInput" class="form-control me-2" type="search" placeholder="Buscar Pokémon" aria-label="Search">
+        <button class="btn btn-dark fw-bold" type="submit">🔍</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+  <div class="container">
+    <div class="row">
+      
+      <!-- Lista de Pokémons -->
+      <div class="col-md-4 mb-3">
+        <div class="card p-3">
+          <h4 class="mb-3 text-center">Lista de Pokémons</h4>
+          <ul id="pokemonList" class="list-group">
+            <li class="list-group-item">Carregando Pokémons...</li>
+          </ul>
+          <div class="d-flex justify-content-between mt-3">
+            <button id="prevBtn" class="btn btn-outline-dark btn-sm">⬅ Anterior</button>
+            <button id="nextBtn" class="btn btn-outline-dark btn-sm">Próximo ➡</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detalhes -->
+      <div class="col-md-8">
+        <div id="pokemonDetails" class="card p-4 text-center bg-light">
+          <h5 class="text-muted">Selecione um Pokémon ou pesquise pelo nome</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script custom -->
+  <script src="script.js"></script>
+</body>
+</html>
